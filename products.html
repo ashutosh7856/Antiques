@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Antiqes-The Store</title>
+    <title>Antiqes-Products</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?
     family=Poppins:wght@300;400;500;600;700;display=swap">
     <script src="https://kit.fontawesome.com/becc6bace3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="header">
+   
 
     <div class="container">
         <div class="navbar">
@@ -20,7 +20,7 @@
             <nav>
                 <ul id="home-menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
+                <li><a href="">Products</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="">Contact</a></li>
                 <li><a href="login.html">Account</a></li>
@@ -29,41 +29,19 @@
         <img src="./img/cart.png" alt="" width="30px" height="30">
         <img src="./img/menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
-        <div class="row">
-            <div class="col-2">
-                <div class="rectangle">
-                    <h1>Home Decors:<br> With Care For Memorable Moments</h1>
-                
-                </div>
-                <a href="products.html" class="btn">Shop Now &#8594;</a>
-            </div>
-            <div class="col-2">
-                <img src="./img/home2.png" alt="Product image">
-
-            </div>
-        </div>
     </div>
-    </div>
+  
     <!------Products----->
-    <div class="categories">
-        <div class="row">
-            <div class="small-container"></div>
-                <div class="col-3">
-                    <img src="img/pro1.png">
-                </div>
-                <div class="col-3">
-                    <img src="img/pro1.png">
-                </div>
-                <div class="col-3">
-                    <img src="img/pro1.png">
-                </div>
-            </div>
-           
-        </div>
-    </div>
     <!--products home-->
     <div class="small-container">
-        <h2 class="title">Our Products</h2>
+        <div class="row row-2">
+            <h2>Our Products</h2>
+            <select name="" id="">
+                <option value="">By rating</option>
+                <option value=""> Sort by price</option>
+                <option value="">Sort by popularity</option>
+            </select>
+        </div>
         <div class="row">
             <div class="col-4">
                 <img src="img/pro1.png" alt="">
@@ -76,7 +54,11 @@
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <p>$500.00</p>
+                <a href="info.html">
+                  <div class="btn">More Info</div>
+                </a>
             </div>
+          
             <div class="col-4">
                 <img src="img/pro1.png" alt="">
                 <h4>Paper Ache</h4>
@@ -88,18 +70,9 @@
                     <i class="fa fa-star-o"></i>
                 </div>
                 <p>$500.00</p>
-            </div>
-            <div class="col-4">
-                <img src="img/pro1.png" alt="">
-                <h4>Paper Ache</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$500.00</p>
+                <a href="info.html">
+                    <div class="btn">More Info</div>
+                  </a>
             </div>
             <div class="col-4">
                 <img src="img/pro1.png" alt="">
@@ -112,75 +85,70 @@
                     <i class="fa fa-star-o"></i>
                 </div>
                 <p>$500.00</p>
+                <a href="info.html">
+                    <div class="btn">More Info</div>
+                  </a>
             </div>
+        </div>
+    </div>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <img src="img/pro1.png" alt="">
+                <h4>Paper Ache</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$500.00</p>
+                <a href="info.html">
+                  <div class="btn">More Info</div>
+                </a>
+            </div>
+          
+            <div class="col-4">
+                <img src="img/pro1.png" alt="">
+                <h4>Paper Ache</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$500.00</p>
+                <a href="info.html">
+                    <div class="btn">More Info</div>
+                  </a>
+            </div>
+            <div class="col-4">
+                <img src="img/pro1.png" alt="">
+                <h4>Paper Ache</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$500.00</p>
+                <a href="info.html">
+                    <div class="btn">More Info</div>
+                  </a>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>&#8594;</span>
         </div>
     </div>
     <!--offers-->
-    <div class="offers">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="img/pro3.png" class="offers-img">
-
-                </div>
-                <div class="col-2">
-                    <p>Exclusively On Antiques</p>
-                    <h1>Walnut wodden Furniture</h1>
-                    <small>High end wooden furniture premium quality<br></small>
-                     <a href="" class="btn">Buy Now &#8594;</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Testimonials-->
-    <div class="testimonial">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-                         laborum voluptate odio nam nisi esse!</p>
-                         <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <img src="img/testi.jpg" alt="">
-                        <h3>Kanak  Sharma</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-                         laborum voluptate odio nam nisi esse!</p>
-                         <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <img src="img/testi2.jpg" alt="">
-                        <h3>Mehvish Yousuf</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-                         laborum voluptate odio nam nisi esse!</p>
-                         <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                        <img src="img/testi3.jpg" alt="">
-                        <h3>Preeti Patel</h3>
-                </div>
-            </div>
-        </div>
-    </div>
+   
     <!--footer-->
     <div class="footer">
         <div class="container">
